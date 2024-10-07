@@ -19,7 +19,7 @@ export const postData = (user) => {
   return api.post("/users", user);
 };
 
-//put method for updating or editig data
+//put method for updating or editig data 
 export const updateData = (id, user) => {
   return api.put(`/users/${id}`, user);
 };
